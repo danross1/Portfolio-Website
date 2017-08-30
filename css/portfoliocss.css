@@ -1,0 +1,87 @@
+      .page {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+      }
+      img {
+        max-width: 100%;
+      }
+      .body {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+      header{
+        display: inline-flex;
+        justify-content: space-between;
+        border-bottom: 4px solid grey;
+        margin-left: 150px;
+        flex-wrap: wrap;
+      }
+      .info {
+        margin-left: 100px;
+      }
+      .name {
+        margin-bottom: 0px;
+      }
+      nav {
+        width: 100px;
+        order: 0;
+      }
+      #sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        align-items: center;
+      }
+      .box1{
+        width: 35%;
+        height: 10%;
+        background-color: #02b3e4;
+      }
+      .box2 {
+        width: 35%;
+        height: 10%;
+        background-color: #2d3c49;
+      }
+      .box3 {
+        width: 35%;
+        height: 10%;
+        background-color: #7d97ad;
+      }
+      #main-image {
+        flex: 1 0 auto;
+        order: 1;
+        margin-top: 25px;
+      }
+      footer {
+        color: grey;
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+      }
+      .works {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .movies {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        align-items: center;
+      }
+      .recipes {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        align-items: center;
+      }
+      .reflections {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        align-items: center;
+      }
